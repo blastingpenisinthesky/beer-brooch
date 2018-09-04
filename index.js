@@ -103,6 +103,8 @@ module.exports = function LetMeDrink(dispatch) {
             if (skills[s].group == sInfo.group && skills[s].job == oJob && isCdDrink == false && qtdDrink > 0) {
                 beer();
                 marrow();
+		quatrefoil();
+		quickcarve();
                 break;
             }
         }
